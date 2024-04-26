@@ -14,12 +14,12 @@ Protected branches ensure that collaborators on your repository cannot make irre
 
 ### :keyboard: Activity: Add branch protections
 
-1. Go to **Branches** settings. You can navigate to that page manually by selecting the right-most tab in the top of the repository called **Settings** and then clicking **Branches**.
-1. Click **Add branch protection rule** under "Branch protection rules".
-1. Type `main` in **Branch name pattern**.
-1. Check **Require a pull request before merging**.
-1. Uncheck **Require approvals**.
-1. Check **Require status checks to pass before merging**.
+1. Go to _Branches_ settings. You can navigate to that page manually by selecting the right-most tab in the top of the repository called _Settings_ and then clicking _Branches_.
+1. Click _Add branch protection rule_ under "Branch protection rules".
+1. Type `main` in _Branch name pattern_.
+1. Check _Require a pull request before merging_.
+1. Uncheck _Require approvals_.
+1. Check _Require status checks to pass before merging_.
 1. Check all build and test jobs that you'd like to see in the newly visible gray box.
-1. Click **Create**.
+1. Click _Create_.
 1. _Once you turn on branch protection, Actions can no longer push directly to the `main` branch. Wait about 20 seconds and then go to the `ci` branch. [GitHub Actions](https://docs.github.com/actions) will automatically update to the next step on the `ci` branch. You'll need to follow instructions on this branch._
